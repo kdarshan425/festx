@@ -19,6 +19,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     
     <style>
+        .bar::after {
+            width: 180px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 40px;
+            display: block;
+            content: "";
+            background: #50659c;
+            height: 2px;
+            }
        
         #particles-js{
             height:auto;
@@ -100,7 +110,7 @@
   -webkit-perspective: 1000;
   margin: 0 auto 60px auto;
   width: 320px;
-  height: 200px;
+  height: 250px;
   border-radius: 15px;
   cursor:pointer;
 }
@@ -170,6 +180,12 @@
   -webkit-transform-style: preserve-3d;
   position: relative;
 }
+
+#contact p{
+    
+    font-size:20px;color: black; font-family: 'Raleway', sans-serif;
+    
+}
     </style>
 </head>
 <body>
@@ -180,7 +196,7 @@
             </a>
             <a style="height: 60px;"></a>                                 
             <a  href="#contact">Contact</a>   
-            <a  href="#services">Services</a>           
+            <a  href="#events">Events</a>           
             <a  href="#about">About</a>                
             <a href="javascript:void(0);" style="padding:22px;" class="icon"  onclick="dk_open()">
             <div class="hamburger-menu">
@@ -197,7 +213,7 @@
         <a href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close x</a>
         <a  href="index.html" onclick="dk_close()">Home</a>      
         <a  href="#about " onclick="dk_close()">About</a>
-        <a  href="#services" onclick="dk_close()">Services</a>
+        <a  href="#events" onclick="dk_close()">Events</a>
         <a  href="#contact" onclick="dk_close()">Contact Us</a>
        
     </nav>
@@ -226,7 +242,7 @@
             <div style="padding-top: 50px;padding-bottom: 70px;">
                 <center>
                     <div style="padding:50px;">
-                        <h1 data-aos="fade-up" style="color:black; font-family: 'Prompt', sans-serif;">ABOUT FestX</h1>
+                        <h1 class="bar" data-aos="fade-up" style="color:black; font-family: 'Prompt', sans-serif;">ABOUT FestX</h1>
                     </div>
                     <div style="max-width: 660px;">
                     <div class="container">
@@ -248,11 +264,11 @@
         </div>
     </div>
     
-    <div style="background: black;padding-bottom:50px;" class="events">
+    <div id="events" style="background: black;padding-bottom:50px;" class="events">
         <div class="container">
             <div style="padding:50px;">
                 <center>
-                    <h1 style="color:rgb(255, 255, 255);font-family: 'Prompt', sans-serif;">EVENTS</h1>
+                    <h1 class="bar" style="color:rgb(255, 255, 255);font-family: 'Prompt', sans-serif;">EVENTS</h1>
                 </center>
             </div>
             <div style="padding:10px;">
@@ -279,7 +295,7 @@
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
                                                     discord server : <br>
-                                                    Registration Link :
+                                                    Whatsapp Link :
                                                 </p>
                                             </div>
                                         </div>
@@ -305,7 +321,7 @@
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
                                                     discord server : <br>
-                                                    Registration Link :
+                                                    Whatsapp Link :
                                                 </p>
                                             </div>
                                         </div>
@@ -334,7 +350,7 @@
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
                                                     discord server : <br>
-                                                    Registration Link :
+                                                    Whatsapp Link :
                                                 </p>
                                             </div>
                                         </div>
@@ -360,14 +376,80 @@
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
                                                     discord server : <br>
-                                                    Registration Link :
+                                                    Whatsapp Link :
                                                 </p>
                                             </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                            </div>                     
+                            </div>             
+                            
+                            <div style="padding-top:70px;padding-bottom: 40px;">
+                                <h1 style="color: azure;font-family: 'Prompt', sans-serif;">Webinars</h1>
+                            </div>
+                            <div style="padding:20px;" data-aos="fade-up" class="dk col-lg-6 col-md-6 col-xs-12 ">                                
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                      <div class="front" style="height: 280px;background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 40px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>TOPIC : How to embark on a successful Corporate Journey and Onwards!</b></h5>
+                                                <center>
+                                                    <p style="color:whitesmoke">
+                                                        Date : 08/10/2021 <br>
+                                                        Time : 10:00 AM
+                                                    </p>
+                                                </center>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="back" style="height: 280px;background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 10px 10px 20px 10px;">
+                                                <img style="height:100px;width:auto;border-radius:50%" src="img/g1.jfif" alt="">
+                                                <div style="padding-top:20px;">
+                                                    <a style="color:white" href="https://www.linkedin.com/in/ankita-nanwani-hemnani-53510415"><h5 style="color:white;"><b>Ankita Nanwani Hemnani</b></h5></a>                                                    
+                                                    <p style="color:whitesmoke">Senior Software Engineering Manager at Expedia Group</p>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div style="padding:20px;" data-aos="fade-up" class="dk col-lg-6 col-md-6 col-xs-12 ">                                
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                      <div class="front" style="height: 280px;background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 80px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>TOPIC : IOT</b></h5>
+                                                <center>
+                                                    <p style="color:whitesmoke">
+                                                        Date : 09/10/2021 <br>
+                                                        Time : 10:00 AM
+                                                    </p>
+                                                </center>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="back" style="height: 280px;background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 10px 10px 20px 10px;">
+                                                <img style="height:100px;width:auto;border-radius:50%" src="img/g2.jfif" alt="">
+                                                <div style="padding-top:20px;">
+                                                    <a style="color:white;" href="https://www.linkedin.com/in/shreyashgajlekar"><h5 style="color:white;"><b>Shreyash Gajlekar</b></h5></a>                                                    
+                                                    <p style="color:whitesmoke">Design Engineer at Tata Technologies</p>
+                                                </div>                                                
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                                      
                         </div>
                     </div>
                 </center>
@@ -375,19 +457,60 @@
         </div>
     </div>
 
-    <div  id="about" style="background-color: white;">
+    <div  id="contact" style="background-color: white;">
         <div class="container">
             <div style="padding-top: 50px;padding-bottom: 70px;">
                 <center>
                     <div style="padding:50px;">
-                        <h1 data-aos="fade-up" style="color:black; font-family: 'Prompt', sans-serif;">Webinars</h1>
+                        <h1 class="bar" data-aos="fade-up" style="color:black; font-family: 'Prompt', sans-serif;">CONTACT US</h1>
                     </div>
-                    <div style="max-width: 660px;">            
+                    <div style="max-width: 660px;">   
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <p>
+                                   <b>Hiral Bhuptani (9075435401)  </b> <br>
+                                    TE Co-ordinator	
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <p>
+                                   <b>Pushkar Mahajan (7219063378) </b>     <br>
+                                    TE Co-ordinator	
+                                </p>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <p>
+                                   <b>Ashish Bhagwat (9421934981)  </b> <br>
+                                    BE Co-ordinator	
+                                </p>
+                            </div>                            
+                            <div class="col-lg-6 col-md-6">
+                                <p>
+                                   <b>Yashraj Jadhav (8055863243)  </b> <br>
+                                    BE Co-ordinator	
+                                </p>
+                            </div>
+                        </div> 
+                        <div>
+                            <center>
+                                <p>
+                                    <b>Swarali Gholave : 8600143437 </b> <br>
+                                    President of ETSA-IETE forum	
+                                </p>
+                            </center>
+                        </div>        
                     </div>
                 </center>
             </div>
         </div>
     </div>
+    <footer class="footer" style="margin-top:0px;background: black;padding-top: 24px;padding-bottom: 24px; width: 100%">
+        <center>
+            <div>
+                <p style="color: #c7c5c5;font-weight: 300;font-family: 'Raleway', sans-serif;">All rights reserved <br></p>
+            </div>
+        </center>      
+    </footer>
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer data-deferred="1"></script>
     <script type="text/javascript" src="particles/particles.js"></script>
     <script type="text/javascript" src="particles/demo/js/app.js"></script>
