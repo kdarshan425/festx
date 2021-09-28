@@ -187,19 +187,35 @@
     font-size:20px;color: black; font-family: 'Raleway', sans-serif;
     
 }
+
+.object {
+        padding-top:30px;
+        animation: MoveUpDown 3s linear infinite;
+        position: relative;
+        
+        }
+
+        @keyframes MoveUpDown {
+        0%, 100% {
+            bottom: 0;
+        }
+        50% {
+            bottom: 40px;
+        }
+        }
     </style>
 </head>
 <body>
     <nav style="background: black">       
         <div style="background-color: white;height:70px;font-size: 30px;padding: 5px;" class="topnav" id="myTopnav">
-            <a href="index.html" style="padding: 10px 16px;float:left;font-weight: 900;font-family: 'Raleway', sans-serif;">
+            <a target="_blank" href="index.html" style="padding: 10px 16px;float:left;font-weight: 900;font-family: 'Raleway', sans-serif;">
                 <!-- <img style="width:50px;height:auto;" src="img/faw.png"> --> <h5 style="font-family: 'Prompt', sans-serif;font-size:30px;padding:5px;">FestX</h5>
             </a>
             <a style="height: 60px;"></a>                                 
             <a  href="#contact">Contact</a>   
             <a  href="#events">Events</a>           
             <a  href="#about">About</a>                
-            <a href="javascript:void(0);" style="padding:22px;" class="icon"  onclick="dk_open()">
+            <a target="_blank" href="javascript:void(0);" style="padding:22px;" class="icon"  onclick="dk_open()">
             <div class="hamburger-menu">
                 <div class="line line1"></div>
                 <div class="line line2"></div>
@@ -211,7 +227,7 @@
     </nav>
     <!-- Sidebar on small screens when clicking the menu icon -->
     <nav class="sidebar animate-left" style="display:none" id="mySidebar">
-        <a href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close x</a>
+        <a target="_blank" href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close x</a>
         <a  href="index.html" onclick="dk_close()">Home</a>      
         <a  href="#about " onclick="dk_close()">About</a>
         <a  href="#events" onclick="dk_close()">Events</a>
@@ -248,16 +264,27 @@
                     <div style="max-width: 660px;">
                     <div class="container">
                         <p data-aos="fade-up" style="font-size:20px;color: black; font-family: 'Raleway', sans-serif;font-weight:bold;">                            
-                            Department of Electronics and Telecommunications  In Association with Electronics and Telecommunication students association (ETSA) is thrilled to announce a techfest for you all.
+                            Department of Electronics and Telecommunications  In Association with ETSA and IETE student forum are thrilled to announce a techfest for you all.
                             All work and no play makes jack a dull boy! 
                             So FestX is going to be an all inclusive package for learning, fun, and much more! <br>
-                            The sole purpose of the event is to provide a platform for students to showcase their knowledge and bring together students from colleges in healthy competition.  We look forward to seeing you!
+                            The sole purpose of the event is to provide a platform for students to showcase their knowledge and bring together students from colleges in healthy competition.  We look forward to seeing you! <br>
+                            
                         </p>
                     </div>
-                    <div style="padding-top:30px;">
+                    <div style="padding-top:10px;padding-bottom: 30px;">
                         <center>
-                            <button data-aos="zoom-in" style="background:#50659c;font-family: 'Raleway', sans-serif;" class="exp-btn btn--voi" type="submit" name="submit" >Rulebook</button>
+                            <button style="background:#50659c;font-family: 'Raleway', sans-serif;" class="exp-btn btn--voi" type="submit" name="submit" >Rulebook</button>
                         </center>
+                    </div>
+                    <div class="container">
+                        <div style="padding-bottom: 50px;">
+                            <p>To know more, join our <a target="_blank" href="https://discord.gg/5FxmhnXF">discord</a> server.</p>
+                        
+                        </div>
+                        <div class="object" style="border:dashed 1px black;padding-top:0px;">
+                            <h2  style="font-family: 'Raleway', sans-serif;color: brown;padding:20px">And get a Chance to win prizes upto <b>15k !</b>
+                            </h2>
+                        </div>
                     </div>
                 </div>
                 </center>
@@ -285,8 +312,8 @@
                                       <div class="front" style="background:rgba(255,255,255,0.1);border:2px solid white;">
                                         <div style="padding:20px;">                                        
                                             <div style="padding: 50px 10px 20px 10px;">
-                                                <h5 style="color:white;"><b>TREASURE HUNT 🕵‍♀️</b></h5>
-                                                <p style="color:whitesmoke">an event where students solve the puzzles and unlock the next step  by quick and smart thinking. <i style="color:transparent;">levelup</i> </p>
+                                                <h5 style="color:white;"><b>Masked Bandits🕵‍♀️</b></h5>
+                                                <p style="color:whitesmoke">An event where students solve the puzzles and unlock the next step  by quick and smart thinking. <i style="color:transparent;">levelup</i> </p>
                                             </div>
                                         </div>
                                       </div>
@@ -295,8 +322,7 @@
                                             <div style="padding: 50px 10px 20px 10px;">
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
-                                                    discord server : <br>
-                                                    Whatsapp Link :
+                                                    Registration link : <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdBJjchWk0CfFO74uaQ1L17Qev6DLyBZMKE61YmQM9TE94DFA/viewform?fbzx=2026092201184702227">Click here</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -312,7 +338,7 @@
                                         <div style="padding:20px;">                                        
                                             <div style="padding: 50px 10px 20px 10px;">
                                                 <h5 style="color:white;"><b>QUIZOMANIA 🧩</b></h5>
-                                                <p style="color:whitesmoke">event helps students test their knowledge in various fields and also quicker the answer higher the rank. </p>
+                                                <p style="color:whitesmoke">A rapid-fire event which helps the students to test their knowledge in various domains. </p>
                                             </div>
                                         </div>
                                       </div>
@@ -321,8 +347,7 @@
                                             <div style="padding: 50px 10px 20px 10px;">
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
-                                                    discord server : <br>
-                                                    Whatsapp Link :
+                                                    Registration link : <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeLib57oyYiqnaqfCIhv6q9TL5q2YK7sk_5jJd7CoUgZ6hMTA/viewform?usp=sf_link">Click here</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -350,8 +375,7 @@
                                             <div style="padding: 50px 10px 20px 10px;">
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
-                                                    discord server : <br>
-                                                    Whatsapp Link :
+                                                    Registration link : <a target="_blank" href="">Click here</a>
                                                 </p>
                                             </div>
                                         </div>
@@ -376,15 +400,41 @@
                                             <div style="padding: 50px 10px 20px 10px;">
                                                 <h5 style="color:white;"><b>Links</b></h5>
                                                 <p style="color:whitesmoke">
-                                                    discord server : <br>
-                                                    Whatsapp Link :
+                                                    Registration link : <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSf2M2CFjLDrt3AZdXFd_2BCgf3XEl4BCYRI1zAvmSOMWJ8BxQ/viewform?usp=sf_link">Click here</a>
                                                 </p>
                                             </div>
                                         </div>
                                       </div>
                                     </div>
                                   </div>
-                            </div>             
+                                  
+                            </div>      
+                            <div>
+                                <div style="padding:20px;" data-aos="fade-up" class="dk">                                
+                                    <div class="flip-container">
+                                        <div class="flipper">
+                                          <div class="front" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                            <div style="padding:20px;">                                        
+                                                <div style="padding: 20px 10px 20px 10px;">
+                                                    <h5 style="color:white;"><b>Idea sparkle🖥</b></h5>
+                                                    <p style="color:whitesmoke">An event where Team has to present an idea, model, or Software (maybe a Website or APP) including the problem, solution, and how it can be implemented.</p>
+                                                </div>
+                                            </div>
+                                          </div>
+                                          <div class="back" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                            <div style="padding:20px;">                                        
+                                                <div style="padding: 50px 10px 20px 10px;">
+                                                    <h5 style="color:white;"><b>Links</b></h5>
+                                                    <p style="color:whitesmoke">
+                                                        Registration link : <a target="_blank" href="https://forms.gle/UMoxXkApaJP8V54S7">Click here</a>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                    </div>                                      
+                                </div>      
+                            </div>       
                             
                             <div style="padding-top:70px;padding-bottom: 40px;">
                                 <h1 data-aos="zoom-in" style="color: azure;font-family: 'Prompt', sans-serif;">Webinars</h1>
@@ -425,8 +475,8 @@
                                     <div class="flipper">
                                       <div class="front" style="height: 280px;background:rgba(255,255,255,0.1);border:2px solid white;">
                                         <div style="padding:20px;">                                        
-                                            <div style="padding: 80px 10px 20px 10px;">
-                                                <h5 style="color:white;"><b>TOPIC : IOT</b></h5>
+                                            <div style="padding: 20px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>TOPIC : The role of IoT in industry 4.0 and opportunities for engineering graduates in IoT</b></h5>
                                                 <center>
                                                     <p style="color:whitesmoke">
                                                         Date : 09/10/2021 <br>
@@ -495,7 +545,7 @@
                         <div>
                             <center>
                                 <p data-aos="fade-up">
-                                    <b>Swarali Gholave : 8600143437 </b> <br>
+                                    <b>Swarali Gholave (8600143437) </b> <br>
                                     President of ETSA-IETE forum	
                                 </p>
                             </center>
@@ -521,7 +571,7 @@
     <footer class="footer" style="margin-top:0px;background: black;padding-top: 24px;padding-bottom: 24px; width: 100%">
         <center>
             <div>
-                <p style="color: #c7c5c5;font-weight: 300;font-family: 'Raleway', sans-serif;">All rights reserved <br> Engineered by <a href="https://www.linkedin.com/in/darshan-khope-9400571a2/">Darshan Khope</a> <br> <a href="https://www.linkedin.com/in/hiral-bhuptani/">Hiral Bhuptani</a> <a href="https://www.linkedin.com/in/vaishnavi-gadhave-37a73b1b3/">Vaishnavi gadhave</a></p>
+                <p style="color: #c7c5c5;font-weight: 300;font-family: 'Raleway', sans-serif;">All rights reserved <br> Engineered by <a target="_blank" href="https://www.linkedin.com/in/darshan-khope-9400571a2/">Darshan Khope</a> <br> <a target="_blank" href="https://www.linkedin.com/in/hiral-bhuptani/">Hiral Bhuptani</a> <a target="_blank" href="https://www.linkedin.com/in/vaishnavi-gadhave-37a73b1b3/">Vaishnavi Gadhave</a></p>
             </div>
         </center>      
     </footer>
