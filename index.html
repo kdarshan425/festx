@@ -21,15 +21,21 @@
     <style>
        
         #particles-js{
-            height:100vh;
+            height:auto;
             background: url(img/bg.PNG) no-repeat;
             background-size:cover ;
         }
        
-        .particles-js-canvas-el {
-            height: 100vmax !important;
+        .particles-js-canvas-el {            
             z-index: 0;
             }
+            
+        @media (max-width: 568px){
+            .particles-js-canvas-el {
+                height: 100vmax !important;            
+                z-index: 0;
+                }
+        }
 
         .main-div{
             padding-top: 150px;
@@ -89,21 +95,57 @@
        
     </nav>
     <div id="particles-js">
-        <div style="position: absolute;" class="container">
-            <div class="main-div">
+        <div>
+            <div style="position: absolute; width:100%;">
+                <div class="main-div">
+                    <center>
+                        <div>
+                            <img class="logo" src="img/Frame 1.png" alt="">
+                        </div>
+                        <div>
+                            <h5 style="color: white;padding-top: 30px;font-family: 'Prompt', sans-serif;">Presents</h5>
+                        </div>
+                        <div>
+                            <img class="logo" src="img/festx1.png" alt="">
+                        </div>
+                    </center>
+                </div>
+            </div>        
+        </div>
+    </div>
+
+    <div  id="about" style="background-color: white;">
+        <div class="container">
+            <div style="padding-top: 50px;padding-bottom: 70px;">
                 <center>
-                    <div>
-                        <img class="logo" src="img/Frame 1.png" alt="">
+                    <div style="padding:50px;">
+                        <h1 data-aos="fade-up" style="color:black;font-family: 'Abril Fatface', cursive;">ABOUT US</h1>
                     </div>
-                    <div>
-                        <h5 style="color: white;padding-top: 30px;font-family: 'Prompt', sans-serif;">Presents</h5>
+                    <div style="max-width: 660px;">
+                    <div class="container">
+                        <p data-aos="fade-up" style="font-size:20px;color: black; font-family: 'Raleway', sans-serif;font-weight:bold;">                            
+                            We’re a media agency. We help businesses to stand out, We work on areas which will help them to reach Far And Wide ! It is one stop for all… <br> <br>
+
+We at far & Wide not only create business but build relations... The best creative minds with the smartest clients ! We CO-WORK with you - for you !  Scroll down for more information about our services !
+</p>
                     </div>
-                    <div>
-                        <img class="logo" src="img/festx1.png" alt="">
+                    <div style="padding-top: 40px;" class="container">
+                        <div  class="middle " >
+                            <a data-aos="flip-up" class="btn " href="https://www.instagram.com/farandwide_media/">
+                                <img style="height:50px;width:50px;" src="img/social/insta.png" alt="">
+                            </a>
+                            <a data-aos="flip-up" class="btn" href="https://www.facebook.com/FarWide-Media-102904095493362/">
+                                <img style="height:50px;width:50px;" src="img/social/fb.png" alt="">
+                            </a>
+                            <a data-aos="flip-up" class="btn"  href="https://www.linkdin.com/">
+                                <img style="height:50px;width:50px;" src="img/social/li.png" alt="">
+                            </a>                                
+                        </div>
                     </div>
+                </div>
                 </center>
             </div>
-        </div>        
+        </div>
     </div>
     
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer data-deferred="1"></script>
