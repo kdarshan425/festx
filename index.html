@@ -4,539 +4,375 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Far and wide Media agency</title>
+    <title>TECHFEST | PCCOE</title>
     <link rel="stylesheet" href="styles/style.css">
-    <link rel="icon" href="img/faw.png">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
     <script src="https://use.fontawesome.com/9fc82f32ca.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Abril+Fatface&family=Quantico:ital@1&family=Raleway:wght@200&display=swap" rel="stylesheet">
     <!-- CSS only -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <style>
-        @font-face {
-            font-family: 'hertlove';
-            src: url('heart love.ttf');
-        }
-
-        .faw{
-            margin-top:90px;
-            font-size:70px;  
-            margin-left: 50px;    
-            text-align: center;          
-        }
-        
-        @media (max-width: 768px){
-            .faw{
-            margin-top:0px;
-            font-size:40px;  
-            text-align: center;  
-            margin-left: 0px;  
-            }
-        }
-
-        @media (max-width: 568px){
-            .faw{
-            margin-top:0px;
-            font-size:70px;  
-            text-align: center; 
-            margin-left: 0px;           
-            }
-        }
-        
-        .object {
-        padding-top:30px;
-        animation: MoveUpDown 3s linear infinite;
-        position: relative;
-        
-        }
-
-        @keyframes MoveUpDown {
-        0%, 100% {
-            bottom: 0;
-        }
-        50% {
-            bottom: 40px;
-        }
-        }
-
-        .namefw{
-            padding-top:50px;
-            width:90%;
-            height:auto;
-        }
-
-        .imgfw{
-            width:100%;
-            height:100%;
-            margin-top: 160px;
-            padding-bottom: 30px;
-        }
-        @media (max-width: 768px){
-            .namefw{
-            padding-top:50px;
-            width:98%;
-            height:auto;
-            padding-bottom: 10px;
-        }
-        .imgfw{
-            width:100%;
-            height:100%;
-            margin-top: 140px;
-            padding-bottom: 30px;
-        }
-        }
-        @media (max-width: 568px){
-            .imgfw{
-            width:100%;
-            height:100%;
-            margin-top: 50px;
-        }
-        }
-
-        .dk{
-            padding:40px;
-        }
-
-        @media (max-width: 768px){
-            .dk{
-            padding:30px;
-        }
-        }
-
-        @media (max-width: 568px){
-            .dk{
-            padding:10px;
-        }
-        }
-
-        .ab{
-            display:none;
-        }
-        @media (max-width: 568px){
-            .ab{
-            display:block;
-            color:transparent
-        }
-        }
-
-        .dk p{
-            font-family: 'Raleway', sans-serif;
-            font-weight: bold;
-        }
-
-        .dk a{
-            font-family: 'Raleway', sans-serif;
-            
-            text-decoration:none;
-        }
-
-        .dk a:hover{
-            font-family: 'Raleway', sans-serif;            
-            text-decoration:none;
-        }
-
-        .dk a{
-            text-align: none;
-        }
-
-        .loader-img{
-        top: 35%;
-        left: 40%;
-        text-align: center;
-        position: absolute;
-        height: 200px;
-        width: 200px;
-    }
-    @media (max-width: 768px){
-        .loader-img{
-        top: 35%;
-        left: 35%;
-        text-align: center;
-        position: absolute;
-        height: 200px;
-        width: 200px;
-        }
-        
-    }
-        @media (max-width: 568px){
-            .loader-img{
-        top: 35%;
-        left: 25%;
-        text-align: center;
-        position: absolute;
-        height: 200px;
-        width: 200px;
-        }
-        
-    }
-
-    .cer_img{
-        width:100%;
-        max-height:200px !important;
-        padding-top:20px;
-
-    }
-    @media (max-width: 768px){
-        .cer_img{
-        width:100%;
-        max-height:150px !important;
-        padding-top:20px;
-
-    }
-    }
-
-    @media (max-width: 568px){
-        .cer_img{
-        width:100%;
-        max-height:90px !important;
-        padding-top:20px;
-
-    }
-    .contactli{
-        text-align: left;
-    }
-    }
-
     
+    <style>
+       
+        #particles-js{
+            height:auto;
+            background: url(img/bg.PNG) no-repeat;
+            background-size:cover ;
+        }
+       
+        .particles-js-canvas-el {            
+            z-index: 0;
+            }
+
+            @media (max-width: 768px){
+            .particles-js-canvas-el {
+                           
+                z-index: 0;
+                }
+        }
+
+        @media (max-width: 568px){
+            .particles-js-canvas-el {
+                height: 100vmax !important;            
+                z-index: 0;
+                }
+        }
+
+        .main-div{
+            padding-top: 150px;
+        }
+
+        @media (max-width: 768px){
+            .main-div{
+            padding-top: 170px;
+        }
+    }
+
+        @media (max-width: 568px){
+            .main-div{
+            padding-top: 200px;
+        }
+    }
+        .logo{
+            max-width:400px;
+            height:auto;
+        }
+
+        @media (max-width: 568px){
+            .logo{
+            max-width:100%;
+            height:auto;
+        }
+    }
+
+    .exp-btn{
+            position: relative;
+            border: 2px solid;
+            border-radius: 0px;
+            padding: 1rem 1rem;
+            font-size: 1rem;
+            font-weight: 500;
+            letter-spacing: 0.25px;
+            line-height: 1.5rem;
+            cursor: pointer;
+            overflow: hidden;
+            transition: all .3s, outline 0s;
+            transition: all .3s, outline 0s;
+            width: 150px;
+            font-family: 'Orbitron', sans-serif;
+        }
+        
+        .exp-btn.btn--voi{
+            background-color:#50659c;
+            color:white;
+        }
+
+
+        /*Animation Flip Card*/
+        .flip-container {
+  -webkit-perspective: 1000;
+  margin: 0 auto 60px auto;
+  width: 320px;
+  height: 200px;
+  border-radius: 15px;
+  cursor:pointer;
+}
+
+.flip-container:hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  cursor:pointer;
+}
+.flip-container.hover .flipper {
+  -webkit-transform: rotateY(180deg);
+  cursor:pointer;
+}
+
+.front {
+  width: 311px;
+  height: 250px;
+  border-radius: 0px;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+/* .front h3 {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.front img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+} */
+
+.back {
+  width: 311px;
+  height: 250px;
+  border-radius: 0px;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform: rotateY(180deg);
+  text-align: center;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.back h3 {
+  margin-top: 20px;
+}
+
+.back p {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-right:15px;
+}
+
+.flipper {
+  -webkit-transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+  position: relative;
+}
     </style>
 </head>
 <body>
-    
-    <div>
-        <nav style="background: black">       
-            <div style="background-color: white;height:70px;" class="topnav" id="myTopnav">
-                <a href="index.html" style="padding: 10px 16px;float:left;font-weight: 900;font-family: 'Raleway', sans-serif;">
-                    <img style="width:50px;height:auto;" src="img/faw.png">
-                </a>
-                <a style="height: 60px;"></a>                                 
-                <a  href="#contact">Contact</a>   
-                <a  href="#services">Services</a>           
-                <a  href="#about">About</a>                
-                <a href="javascript:void(0);" style="padding:22px;" class="icon"  onclick="dk_open()">
-                <div class="hamburger-menu">
-                    <div class="line line1"></div>
-                    <div class="line line2"></div>
-                    <div class="line line3"></div>
-                </div> 
-                </a>
-            
-            </div>
-        </nav>
-        <!-- Sidebar on small screens when clicking the menu icon -->
-        <nav class="sidebar animate-left" style="display:none" id="mySidebar">
-            <a href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close x</a>
-            <a  href="index.html" onclick="dk_close()">Home</a>      
-            <a  href="#about " onclick="dk_close()">About</a>
-            <a  href="#services" onclick="dk_close()">Services</a>
-            <a  href="#contact" onclick="dk_close()">Contact Us</a>
-           
-        </nav>
+    <nav style="background: black">       
+        <div style="background-color: white;height:70px;font-size: 30px;padding: 5px;" class="topnav" id="myTopnav">
+            <a href="index.html" style="padding: 10px 16px;float:left;font-weight: 900;font-family: 'Raleway', sans-serif;">
+                <!-- <img style="width:50px;height:auto;" src="img/faw.png"> --> <h5 style="font-family: 'Prompt', sans-serif;font-size:30px;padding:5px;">FestX</h5>
+            </a>
+            <a style="height: 60px;"></a>                                 
+            <a  href="#contact">Contact</a>   
+            <a  href="#services">Services</a>           
+            <a  href="#about">About</a>                
+            <a href="javascript:void(0);" style="padding:22px;" class="icon"  onclick="dk_open()">
+            <div class="hamburger-menu">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div> 
+            </a>
+        
+        </div>
+    </nav>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="sidebar animate-left" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close x</a>
+        <a  href="index.html" onclick="dk_close()">Home</a>      
+        <a  href="#about " onclick="dk_close()">About</a>
+        <a  href="#services" onclick="dk_close()">Services</a>
+        <a  href="#contact" onclick="dk_close()">Contact Us</a>
+       
+    </nav>
+    <div id="particles-js">
         <div>
-            <div style="padding-top:0px;padding-bottom:50px;background:black;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div style="padding-top:0px;">
-                                <center>
-                                    <img data-aos="zoom-in" src="img/far.png" class="namefw" alt="">
-                                </center>
-                            </div>
+            <div style="position: absolute; width:100%;">
+                <div class="main-div">
+                    <center>
+                        <div>
+                            <img class="logo" src="img/Frame 1.png" alt="">
                         </div>
-                        <div class="col-md-6">
-                            <div class="container">
-                                <center>
-                                    <div>
-                                        <img data-aos="zoom-in" src="img/1.png" class="imgfw" alt="farandwide">
-                                    </div>
-                                </center>
-                            </div>
+                        <div>
+                            <h5 style="color: white;padding-top: 30px;font-family: 'Prompt', sans-serif;">Presents</h5>
                         </div>
-                    </div>
-                 
+                        <div>
+                            <img class="logo" src="img/festx1.png" alt="">
+                        </div>
+                    </center>
                 </div>
-            </div>
-            <div>
-                <a href="https://wa.me/message/SIS7IOXXIMHBM1"><img style="z-index:500;height:60px;width:60px;position:fixed;bottom:20px;right:20px;" src="img/social/wa.png" alt=""></a>                
-            </div>
-            <div  id="about" style="background-color: white;">
-                <div class="container">
-                    <div style="padding-top: 50px;padding-bottom: 70px;">
-                        <center>
-                            <div style="padding:50px;">
-                                <h1 data-aos="fade-up" style="color:black;font-family: 'Abril Fatface', cursive;">ABOUT US</h1>
-                            </div>
-                            <div style="max-width: 660px;">
-                            <div class="container">
-                                <p data-aos="fade-up" style="font-size:20px;color: black; font-family: 'Raleway', sans-serif;font-weight:bold;">                            
-                                    We’re a media agency. We help businesses to stand out, We work on areas which will help them to reach Far And Wide ! It is one stop for all… <br> <br>
-
-We at far & Wide not only create business but build relations... The best creative minds with the smartest clients ! We CO-WORK with you - for you !  Scroll down for more information about our services !
-</p>
-                            </div>
-                            <div style="padding-top: 40px;" class="container">
-                                <div  class="middle " >
-                                    <a data-aos="flip-up" class="btn " href="https://www.instagram.com/farandwide_media/">
-                                        <img style="height:50px;width:50px;" src="img/social/insta.png" alt="">
-                                    </a>
-                                    <a data-aos="flip-up" class="btn" href="https://www.facebook.com/FarWide-Media-102904095493362/">
-                                        <img style="height:50px;width:50px;" src="img/social/fb.png" alt="">
-                                    </a>
-                                    <a data-aos="flip-up" class="btn"  href="https://www.linkdin.com/">
-                                        <img style="height:50px;width:50px;" src="img/social/li.png" alt="">
-                                    </a>                                
-                                </div>
-                            </div>
-                        </div>
-                        </center>
-                    </div>
-                </div>
-            </div>
-    
-            <div id="services" style="background-color: black;padding-bottom:90px;padding-top:50px;">
-                <div class="container">
-                    <div style="padding:50px;">
-                        <center>
-                            <h1 style="color:rgb(255, 255, 255);font-family: 'Abril Fatface', cursive;">OUR SERVICES</h1>
-                        </center>
-                    </div>
-                    <div style="padding:10px;">
-                        <center>
-                            <div >
-                                <div class="row">
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#bb">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/11.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Brand    Building<i style="color:transparent;">dk</i></p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-            
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#cc">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/4.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Content Creation</p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#photography">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/12.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Photography</p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#vdo">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/13.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Videography</p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-            
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#em">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/9.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Event Management</p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-            
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#wb">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/6.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Website Building</p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#lec">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/10.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Live event coverage </p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-            
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#dm">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/7.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Digital Marketing <br> </p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#cw">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/14.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Content Writing  </p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#om">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/15.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Offline marketing </p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#gd">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/7.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Graphic designing </p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-            
-                                    <div data-aos="fade-up" class="dk col-lg-4 col-6 ">
-                                        <a href="services.html#smm">
-                                        <div style="background:black;border:2px solid white;border-radius:20px;">
-                                            <div style="padding:20px;">
-                                                <img class="cer_img" src="img/16.svg" alt="">
-                                                <div style="padding: 50px 10px 20px 10px;">
-                                                    <p style="color:white;">Social Media Management <br> </p>
-                                                </div>
-                                            </div>
-                                        </div></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </center>
-                        <div class="container">
-                            <div class="container">
-                                <div style="padding-top:50px;">
-                                    <div style="background:black;border:2px solid white;border-radius:20px;padding:50px;">
-                                        <center>
-                                            <h1 style="color:white;font-family: 'Raleway', sans-serif;">Rent Outs</h1>
-                                        </center>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    
-            <div id="contact" style="background-color: white;">
-                <div class="container">
-                    <div style="padding-top: 50px;padding-bottom: 70px;">
-                        <center>
-                            <div style="padding:50px;">
-                                <h1 data-aos="fade-up" style="color:black;font-family: 'Abril Fatface', cursive;">CONTACT US</h1>
-                            </div>
-                            <div style="max-width: 660px;">
-                            <div class="container">
-                                <p data-aos="fade-up" class="contactli" style="font-size:20px;color: black; font-family: 'Raleway', sans-serif;">                            
-                                    <i class="fa fa-mobile" aria-hidden="true"></i> Mobile No : 74987 57193 <br> <br>
-                                    <i class="fa fa-envelope" aria-hidden="true"></i> Email Id : contact@farandwidemedia.in <br> <br>
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i> Location Far and Wide, Floor 1, Harmony Plaza, near Panjabi Treat, Ravet, Pune, Maharashtra 411033 <br> <br>
-                                </p>
-                                <a href="https://www.google.com/maps/place/FAR+AND+WIDE+MEDIA+AGENCY/@18.6416503,73.7556355,18.38z/data=!4m5!3m4!1s0x3bc2b9913dfba2c3:0x5be80b4f621806c1!8m2!3d18.6416484!4d73.7563142">
-                                <center>
-                                    <img src="img/map.PNG" style="width:100%;height:auto;"  alt="">
-                                </center>
-                                </a>
-                            </div>
-                            <div style="padding-top: 40px;" class="container">
-                                <div  class="middle " >
-                                    <a data-aos="flip-up" class="btn " href="https://www.instagram.com/farandwide_media/">
-                                        <img style="height:50px;width:50px;" src="img/social/insta.png" alt="">
-                                    </a>
-                                    <a data-aos="flip-up" class="btn" href="https://www.facebook.com/FarWide-Media-102904095493362/">
-                                        <img style="height:50px;width:50px;" src="img/social/fb.png" alt="">
-                                    </a>
-                                    <a data-aos="flip-up" class="btn"  href="https://www.linkdin.com/">
-                                        <img style="height:50px;width:50px;" src="img/social/li.png" alt="">
-                                    </a>                                
-                                </div>
-                            </div>
-                        </div>
-                        </center>
-                    </div>
-                </div>
-            </div>
-    
-            <footer class="footer" style="margin-top:0px;background: black;padding-top: 24px;padding-bottom: 24px; width: 100%">
-                <center>
-                    <div>
-                        <p style="color: #c7c5c5;font-weight: 300;font-family: 'Raleway', sans-serif;">All rights reserved <br>  © Far And Wide Media Agency</p>
-                    </div>
-                </center>      
-            </footer>
-        </div>        
+            </div>        
+        </div>
     </div>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init({
-            duration : 1000,
-        });
 
-        //loader
+    <div  id="about" style="background-color: white;">
+        <div class="container">
+            <div style="padding-top: 50px;padding-bottom: 70px;">
+                <center>
+                    <div style="padding:50px;">
+                        <h1 data-aos="fade-up" style="color:black; font-family: 'Prompt', sans-serif;">ABOUT US</h1>
+                    </div>
+                    <div style="max-width: 660px;">
+                    <div class="container">
+                        <p data-aos="fade-up" style="font-size:20px;color: black; font-family: 'Raleway', sans-serif;font-weight:bold;">                            
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi ab temporibus reprehenderit natus aliquam consectetur, consequatur vitae, officia repudiandae exercitationem laboriosam impedit possimus dolorum dignissimos quibusdam assumenda ratione cum eius.
+                        </p>
+                    </div>
+                    <div style="padding-top:30px;">
+                        <center>
+                            <button style="background:#50659c;font-family: 'Raleway', sans-serif;" class="exp-btn btn--voi" type="submit" name="submit" >Rulebook</button>
+                        </center>
+                    </div>
+                </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    
+    <div style="background: black;" class="events">
+        <div class="container">
+            <div style="padding:50px;">
+                <center>
+                    <h1 style="color:rgb(255, 255, 255);font-family: 'Prompt', sans-serif;">EVENTS</h1>
+                </center>
+            </div>
+            <div style="padding:10px;">
+                <center>
+                    <div style="max-width: 700px;" >
+                        <div class="row">
+                            <div style="padding-bottom: 40px;">
+                                <h1 style="color: azure;font-family: 'Prompt', sans-serif;">Non-Technical Events</h1>
+                            </div>
+                            <div style="padding:20px;" data-aos="fade-up" class="dk col-lg-6 col-md-6 col-xs-12 ">                                
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                      <div class="front" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>TREASURE HUNT 🕵‍♀️</b></h5>
+                                                <p style="color:whitesmoke">an event where students solve the puzzles and unlock the next step  by quick and smart thinking. <i style="color:transparent;">levelup</i> </p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="back" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>Links</b></h5>
+                                                <p style="color:whitesmoke">
+                                                    discord server : <br>
+                                                    Registration Link :
+                                                </p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
 
-        function myFunction4() {
-        myVar = setTimeout(showPage, 0);
-        }
+                            <div style="padding:20px;" data-aos="fade-up" class="dk col-lg-6 col-md-6 col-xs-12 ">                                
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                      <div class="front" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>QUIZOMANIA 🧩</b></h5>
+                                                <p style="color:whitesmoke">event helps students test their knowledge in various fields and also quicker the answer higher the rank. </p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="back" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>Links</b></h5>
+                                                <p style="color:whitesmoke">
+                                                    discord server : <br>
+                                                    Registration Link :
+                                                </p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
 
-        function showPage() {
-        document.getElementById("loader").style.display = "none";
-        document.getElementById("myDiv").style.display = "block";
-        }
-    </script>        
-    <script src="script.js"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-    </body>
+                            <div style="padding-top:70px;padding-bottom: 40px;">
+                                <h1 style="color: azure;font-family: 'Prompt', sans-serif;">Technical Events</h1>
+                            </div>
+                            <div style="padding:20px;" data-aos="fade-up" class="dk col-lg-6 col-md-6 col-xs-12 ">                                
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                      <div class="front" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>CLASH OF CIRCUITS🔌🕵‍♀️</b></h5>
+                                                <p style="color:whitesmoke"> tests your designing skills and basic concepts of electronics.</p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="back" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>Links</b></h5>
+                                                <p style="color:whitesmoke">
+                                                    discord server : <br>
+                                                    Registration Link :
+                                                </p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>
+
+                            <div style="padding:20px;" data-aos="fade-up" class="dk col-lg-6 col-md-6 col-xs-12 ">                                
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                      <div class="front" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>BATTLE OF GEEKLORDS 🖥</b></h5>
+                                                <p style="color:whitesmoke">where enthusiastic coders compete with each other and showcase their coding skills.</p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="back" style="background:rgba(255,255,255,0.1);border:2px solid white;">
+                                        <div style="padding:20px;">                                        
+                                            <div style="padding: 50px 10px 20px 10px;">
+                                                <h5 style="color:white;"><b>Links</b></h5>
+                                                <p style="color:whitesmoke">
+                                                    discord server : <br>
+                                                    Registration Link :
+                                                </p>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                            </div>                     
+                        </div>
+                    </div>
+                </center>
+            </div>                    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer data-deferred="1"></script>
+    <script type="text/javascript" src="particles/particles.js"></script>
+    <script type="text/javascript" src="particles/demo/js/app.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
 </html>
