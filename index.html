@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHFEST | PCCOE</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://use.fontawesome.com/9fc82f32ca.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Abril+Fatface&family=Quantico:ital@1&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <!-- CSS only -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <style>
+       
+        #particles-js{
+            height:100vh;
+            background: url(img/bg.PNG) no-repeat;
+            background-size:cover ;
+        }
+       
+        .particles-js-canvas-el {
+            height: 100vmax !important;
+            z-index: 0;
+            }
+
+        .main-div{
+            padding-top: 150px;
+        }
+
+        @media (max-width: 768px){
+            .main-div{
+            padding-top: 170px;
+        }
+    }
+
+        @media (max-width: 568px){
+            .main-div{
+            padding-top: 250px;
+        }
+    }
+        .logo{
+            max-width:400px;
+            height:auto;
+        }
+
+        @media (max-width: 568px){
+            .logo{
+            max-width:100%;
+            height:auto;
+        }
+    }
+    </style>
+</head>
+<body>
+    <nav style="background: black">       
+        <div style="background-color: white;height:70px;font-size: 30px;padding: 5px;" class="topnav" id="myTopnav">
+            <a href="index.html" style="padding: 10px 16px;float:left;font-weight: 900;font-family: 'Raleway', sans-serif;">
+                <!-- <img style="width:50px;height:auto;" src="img/faw.png"> --> <h5 style="font-family: 'Prompt', sans-serif;">FestX</h5>
+            </a>
+            <a style="height: 60px;"></a>                                 
+            <a  href="#contact">Contact</a>   
+            <a  href="#services">Services</a>           
+            <a  href="#about">About</a>                
+            <a href="javascript:void(0);" style="padding:22px;" class="icon"  onclick="dk_open()">
+            <div class="hamburger-menu">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div> 
+            </a>
+        
+        </div>
+    </nav>
+    <!-- Sidebar on small screens when clicking the menu icon -->
+    <nav class="sidebar animate-left" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="dk_close()" style="padding-top: 30px;font-size: 20px;">Close x</a>
+        <a  href="index.html" onclick="dk_close()">Home</a>      
+        <a  href="#about " onclick="dk_close()">About</a>
+        <a  href="#services" onclick="dk_close()">Services</a>
+        <a  href="#contact" onclick="dk_close()">Contact Us</a>
+       
+    </nav>
+    <div id="particles-js">
+        <div style="position: absolute;" class="container">
+            <div class="main-div">
+                <center>
+                    <div>
+                        <img class="logo" src="img/Frame 1.png" alt="">
+                    </div>
+                    <div>
+                        <h5 style="color: white;padding-top: 30px;font-family: 'Prompt', sans-serif;">Presents</h5>
+                    </div>
+                    <div>
+                        <img class="logo" src="img/festx1.png" alt="">
+                    </div>
+                </center>
+            </div>
+        </div>        
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer data-deferred="1"></script>
+    <script type="text/javascript" src="particles/particles.js"></script>
+    <script type="text/javascript" src="particles/demo/js/app.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
